@@ -1,0 +1,201 @@
+{"action": "EDE2", "case_rating": "F", "case_state": "F2F", "case_type": "F"}
+{"action": "d3d3", "case_rating": "f3", "case_state": "Alabama", "case_type": "e3"}
+{"action": "23er32", "case_rating": "r3r", "case_state": "Alabama", "case_type": "WDW"}
+{"action": "SAD2", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "w2e", "case_rating": "e2e", "case_state": "Alaska", "case_type": "e2"}
+{"action": "wdw", "case_rating": "ee", "case_state": "Alabama", "case_type": "e"}
+{"action": "we", "case_rating": "we", "case_state": "Alabama", "case_type": "e"}
+{"action": "qwe", "case_rating": "qee", "case_state": "Alabama", "case_type": "e2"}
+{"action": "wdwd", "case_rating": "dw", "case_state": "Alabama", "case_type": "d3rr"}
+{"action": "wdd", "case_rating": "werew", "case_state": "Alabama", "case_type": "refr"}
+{"action": "def", "case_rating": "frrfe", "case_state": "Alabama", "case_type": "dwf"}
+{"action": "w", "case_rating": "e2", "case_state": "Alabama", "case_type": "3r3"}
+{"action": "efe", "case_rating": "fwgt", "case_state": "Alabama", "case_type": "gr"}
+{"action": "ffq", "case_rating": "fertge", "case_state": "Alabama", "case_type": "wfwefg"}
+{"action": "fefqef", "case_rating": "dgd", "case_state": "Alabama", "case_type": "gdse"}
+{"action": "gfvrg", "case_rating": "wefgwe", "case_state": "Alabama", "case_type": "sc"}
+{"action": "sdvgv", "case_rating": "gger", "case_state": "Alabama", "case_type": "efe"}
+{"action": "sdfvdeg", "case_rating": "dwfdw", "case_state": "Alabama", "case_type": "w"}
+{"action": "sacsaf", "case_rating": "ws", "case_state": "Alabama", "case_type": "efwe"}
+{"action": "wefgewg", "case_rating": "wertgewgh", "case_state": "Alabama", "case_type": "grth"}
+{"action": "vggvb", "case_rating": "dbfsdh", "case_state": "Alabama", "case_type": "rfgrh"}
+{"action": "", "case_rating": "", "case_state": "", "case_type": ""}
+{"action": "dcdv", "case_rating": "dfgved", "case_state": "Alabama", "case_type": "dgh"}
+{"action": "sadsvd", "case_rating": "dvb", "case_state": "Alabama", "case_type": "efeg"}
+{"action": "adfagfv", "case_rating": "edg", "case_state": "Alabama", "case_type": "fgwergh"}
+{"action": "sdvd", "case_rating": "5", "case_state": "Alabama", "case_type": "Any"}
+{"action": "ded", "case_rating": "3", "case_state": "Alabama", "case_type": "eff"}
+{"action": "ddw", "case_rating": "4", "case_state": "Alabama", "case_type": "e3r"}
+{"action": "ddwdw", "case_rating": "ecwfc", "case_state": "Alabama", "case_type": "fege"}
+{"action": "scc", "case_rating": "dvd", "case_state": "Alabama", "case_type": "fege"}
+{"action": "fwefew", "case_rating": "5", "case_state": "Alabama", "case_type": "dwfwf"}
+{"action": "fwefew", "case_rating": "5", "case_state": "Alabama", "case_type": "dwfwf"}
+{"action": "fwefew", "case_rating": "5", "case_state": "Alabama", "case_type": "dwfwf"}
+{"action": "fwefew", "case_rating": "5", "case_state": "Alabama", "case_type": "dwfwf"}
+{"action": "swSF", "case_rating": "wfsw", "case_state": "Alabama", "case_type": "dwfw"}
+{"action": "ffbd ", "case_rating": "dgn d", "case_state": "Alabama", "case_type": "ewfewgv"}
+{"action": "wdf", "case_rating": "fwf", "case_state": "Alabama", "case_type": "fw"}
+{"action": "wdqwdf", "case_rating": "4", "case_state": "Alabama", "case_type": "rgrgv"}
+{"action": "wd", "case_rating": "wfe", "case_state": "Alaska", "case_type": "ef"}
+{"action": "gfcjg", "case_rating": "5", "case_state": "Alabama", "case_type": "hvhk"}
+{"action": "", "case_rating": "", "case_state": "Alabama", "case_type": ""}
+{"action": "", "case_rating": "", "case_state": "", "case_type": ""}
+{"action": "", "case_rating": "", "case_state": "", "case_type": ""}
+{"action": "hv", "case_rating": "5-6", "case_state": "Alaska", "case_type": "hv"}
+{"action": "dsswf", "case_rating": "4", "case_state": "Alabama", "case_type": "r3f3"}
+{"action": "efef", "case_rating": "feqfe", "case_state": "Alabama", "case_type": "feqf"}
+{"action": "fef", "case_rating": "feefv", "case_state": "Alaska", "case_type": "vvr"}
+{"action": "edqefeq", "case_rating": "fefef", "case_state": "Arizona", "case_type": "efef"}
+{"action": "", "case_rating": "", "case_state": "Alabama", "case_type": ""}
+{"action": "sw", "case_rating": "dwfw", "case_state": "Alabama", "case_type": "fqwe"}
+{"action": "wdwd", "case_rating": "wd", "case_state": "Alabama", "case_type": "fw"}
+{"action": "qe", "case_rating": "2e2re2", "case_state": "Alabama", "case_type": "2r"}
+{"action": "edw", "case_rating": "5", "case_state": "Alabama", "case_type": "any"}
+{"action": "CSC", "case_rating": "C", "case_state": "Alabama", "case_type": "C"}
+{"action": "eqfef", "case_rating": "efe", "case_state": "Alabama", "case_type": "f"}
+{"action": "dvdsv", "case_rating": "dsvwbv", "case_state": "Alabama", "case_type": "brr"}
+{"action": "fe232", "case_rating": "dewf", "case_state": "Alabama", "case_type": "efe33"}
+{"action": "sw", "case_rating": "wddw", "case_state": "Alabama", "case_type": "dwdw"}
+{"action": "csaca", "case_rating": "cvaqv", "case_state": "Alabama", "case_type": "dvqe"}
+{"action": "wdw", "case_rating": "dwdw", "case_state": "Alabama", "case_type": "fwwf"}
+{"action": "dwf", "case_rating": "efef", "case_state": "Alabama", "case_type": "wfw"}
+{"action": "cs", "case_rating": "cssv", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "dwdwd", "case_rating": "dwfw", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "afaf", "case_rating": "afaga", "case_state": "Wyoming", "case_type": "Type1"}
+{"action": "casc", "case_rating": "scsa", "case_state": "Alabama", "case_type": "Type3"}
+{"action": "defe", "case_rating": "fefe", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "e21", "case_rating": "e313e", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "SDAVAEA", "case_rating": "5", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "fjuc", "case_rating": "2-4", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "e2f", "case_rating": "5", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "efewfvew", "case_rating": "5", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "de3e3f", "case_rating": "56", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "defe2", "case_rating": "4", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "fcrwvr", "case_rating": "5", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "dwwqfw", "case_rating": "4", "case_state": "Alabama", "case_type": "Type1"}
+{"action": "Assign handling firm 'Hollis Wright and Clay'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'rhetjhejt'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "2", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "NY", "case_type": "Any"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Nursing Home"}
+{"action": "Assign handling firm 'Bottini, Bottini and Oswald'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'karan2'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Nursing Home"}
+{"action": "Assign handling firm 'Morgan and Morgan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'karan'", "case_rating": "1-3", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'karan'", "case_rating": "3", "case_state": "Alabama", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Nursing Home"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "3", "case_state": "Alabama", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'gg'", "case_rating": "3", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'efe'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "3", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'dd'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'gg'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "3", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "3", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'ff'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "3", "case_state": "Alabama", "case_type": "Nursing Home"}
+{"action": "Assign handling firm 'fff'", "case_rating": "3", "case_state": "Alabama", "case_type": "Nursing Home"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "3", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'gg'", "case_rating": "2", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'dd'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'dd'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'Hollis Wright and Clay'", "case_rating": "3", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'Hollis Wright and Clay'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "2", "case_state": "NJ", "case_type": "Any"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "Alabama", "case_type": "Nursing Home"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Workers Compensation"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Worker Compensation"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Worker Compensation"}
+{"action": "Assign handling firm 'SAD'", "case_rating": "4", "case_state": "New Jersey", "case_type": "Any"}
+{"action": "Assign handling firm 'Adiel - Labovick Law Group'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Worker Compensation"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'Adiel - Labovick Law Group'", "case_rating": "4", "case_state": "Alabama", "case_type": "Medical Malfuntion"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'Ankin Law'", "case_rating": "4", "case_state": "Alabama", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Medical Malfuntion"}
+{"action": "Assign handling firm 'Sean Flaherty'", "case_rating": "4", "case_state": "NJ", "case_type": "Any"}
+{"action": "Assign handling firm 'Ricci'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'Adiel - Labovick Law Group'", "case_rating": "4", "case_state": "NJ", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'Ankin Law'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'Adiel - Labovick Law Group'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'kk'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Any"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'karan'", "case_rating": "4", "case_state": "Alabama", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'SumitKumar'", "case_rating": "1", "case_state": "Alaska", "case_type": "Worker Compensation"}
+{"action": "Assign handling firm 'Test'", "case_rating": "2", "case_state": "Alaska", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'Run through testing'", "case_rating": "4", "case_state": "Hawaii", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'TEST AL'", "case_rating": "1", "case_state": "Alabama", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'TEST AZ'", "case_rating": "2", "case_state": "Arizona", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'TEST AR'", "case_rating": "3", "case_state": "Arkansas", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'TEST CA'", "case_rating": "5", "case_state": "California", "case_type": "Any"}
+{"action": "Assign handling firm 'TEST CO'", "case_rating": "5", "case_state": "Colorado", "case_type": "Any"}
+{"action": "Assign handling firm 'TEST CT'", "case_rating": "4", "case_state": "Connecticut", "case_type": "Medical Malfuntion"}
+{"action": "Assign handling firm 'TEST DL'", "case_rating": "4", "case_state": "Delaware", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'TEST FL'", "case_rating": "3", "case_state": "Florida", "case_type": "Worker Compensation"}
+{"action": "Assign handling firm 'TEST GE'", "case_rating": "1-4", "case_state": "Georgia", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'TEST HA'", "case_rating": "1-3", "case_state": "Hawaii", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'TEST ID'", "case_rating": "3", "case_state": "Idaho", "case_type": "Worker Compensation"}
+{"action": "Assign handling firm 'TEST IL'", "case_rating": "5", "case_state": "Illinois", "case_type": "Automobile Accident"}
+{"action": "Assign handling firm 'TEST IN'", "case_rating": "1-2", "case_state": "Indiana", "case_type": "Nursing Home"}
+{"action": "Assign handling firm 'TEST IO'", "case_rating": "4", "case_state": "Iowa", "case_type": "Product Liability"}
+{"action": "Assign handling firm 'TEST KA'", "case_rating": "4", "case_state": "Kansas", "case_type": "Worker Compensation"}
+{"action": "Assign handling firm 'TEST KY'", "case_rating": "3-5", "case_state": "Kentucky", "case_type": "Labour Law"}
+{"action": "Assign handling firm 'TEST LO'", "case_rating": "1-2", "case_state": "Louisiana", "case_type": "Medical Malfuntion"}
+{"action": "Assign handling firm 'TEST M'", "case_rating": "1-2", "case_state": "Maine", "case_type": "Nursing Home"}
+{"action": "Assign handling firm 'TEST MD'", "case_rating": "1-5", "case_state": "Maryland", "case_type": "Product Liability"}

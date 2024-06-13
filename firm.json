@@ -1,0 +1,2538 @@
+{
+    "rules": {
+        "Alabama": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Alabama"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hollis Wright and Clay'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Alabama"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hollis Wright and Clay'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Alabama"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Alabama"
+                }
+            }
+        ],
+        "Hawaii": [
+            {
+                "action": "Assign handling firm 'Run through Adam'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-5",
+                    "case_state": "Hawaii"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Run through testing'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "4",
+                    "case_state": "Hawaii"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST HA'",
+                "condition": {
+                    "case_type": "Medical Malfuntion",
+                    "case_rating": "1-3",
+                    "case_state": "Hawaii"
+                }
+            }
+        ],
+        "Alaska": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-5",
+                    "case_state": "Alaska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-5",
+                    "case_state": "Alaska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "3",
+                    "case_state": "Alaska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'test AL'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-2",
+                    "case_state": "Alaska"
+                }
+            }
+        ],
+        "Louisiana": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Louisiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Blase'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Louisiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Louisiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Louisiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Workers Compensation LLC'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Louisiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Louisiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST LO'",
+                "condition": {
+                    "case_type": "Medical Malfuntion",
+                    "case_rating": "1-2",
+                    "case_state": "Louisiana"
+                }
+            }
+        ],
+        "New Jersey": [
+            {
+                "action": "Assign handling firm 'REFER TO NJ SECTION'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-5",
+                    "case_state": "New Jersey"
+                }
+            }
+        ],
+        "Oregon": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Oregon"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Bottini, Bottini and Oswald'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Oregon"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Oregon"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Bottini, Bottini and Oswald'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Oregon"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Bottini, Bottini, and Oswald'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Oregon"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Oregon"
+                }
+            }
+        ],
+        "Minnesota": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Minnesota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TSR Injury Law'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Minnesota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Minnesota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TSR Injury Law'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Minnesota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Minnesota"
+                }
+            }
+        ],
+        "Michigan": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Michigan"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Jay Trucks'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Michigan"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Michigan"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Michigan Auto Law'for Northern Part of State",
+                "condition": {
+                    "case_type": "Automobile Accident",
+                    "case_rating": "1-4",
+                    "case_state": "Michigan"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Jay Trucks'for Southern Part of the State",
+                "condition": {
+                    "case_type": "Automobile Accident",
+                    "case_rating": "1-4",
+                    "case_state": "Michigan"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Jay Trucks'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Michigan"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Michigan"
+                }
+            }
+        ],
+        "Massachusetts": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Massachusetts"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Massachusetts"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Massachusetts"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Massachusetts"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Sean Flaherty'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Massachusetts"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Sean Flaherty'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Massachusetts"
+                }
+            }
+        ],
+        "Maine": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Maine"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Maine"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Maine"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Maine"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Maine"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Maine"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST M'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-2",
+                    "case_state": "Maine"
+                }
+            }
+        ],
+        "Utah": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Utah"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Lowe Law Group'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Utah"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Utah"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Utah"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Lazzara Law Firm'",
+                "condition": {
+                    "case_type": "Automobile Accident",
+                    "case_rating": "1-4",
+                    "case_state": "Utah"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Utah"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Utah"
+                }
+            }
+        ],
+        "Texas": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Texas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Ledger Law Firm'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "4",
+                    "case_state": "Texas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Daniel Stark'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "3",
+                    "case_state": "Texas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Cruz'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-2",
+                    "case_state": "Texas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Texas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Texas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Manuel Gonzales'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Texas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Texas"
+                }
+            }
+        ],
+        "Tennessee": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Tennessee"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hughes Coleman'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Tennessee"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Tennessee"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Tennessee"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hughes Coleman'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Tennessee"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Tennessee"
+                }
+            }
+        ],
+        "North Dakota": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "North Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "North Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "North Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "North Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Steven Latham'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "North Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "North Dakota"
+                }
+            }
+        ],
+        "North Carolina": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "North Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Ricci'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "North Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Riddle and Brantley'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "North Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "North Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Brian Ricci'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "North Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'The Noble Firm'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "North Carolina"
+                }
+            }
+        ],
+        "Nevada": [
+            {
+                "action": "Assign handling firm 'Dylan'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Nevada"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Richard Harris Law'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Nevada"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Richard Harris Law'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Nevada"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Richard Harris Law'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Nevada"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Cooper Levinsom'for the case  in within 60 miles of Vegas",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Nevada"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Richard Harris Law Firm'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Nevada"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Nevada"
+                }
+            }
+        ],
+        "Nebraska": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Nebraska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Friedman Law Offices'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Nebraska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Nebraska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Nebraska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Rosenblum and Associates'",
+                "condition": {
+                    "case_type": "Automobile Accident",
+                    "case_rating": "1-4",
+                    "case_state": "Nebraska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Bob Moodie'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Nebraska"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Nebraska"
+                }
+            }
+        ],
+        "Missouri": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Missouri"
+                }
+            },
+            {
+                "action": "Assign handling firm 'DiPasquale Moore'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Missouri"
+                }
+            },
+            {
+                "action": "Assign handling firm 'DiPasquale Moore'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Missouri"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Missouri"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Boyda Law LLC'if the eastern part of the State",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Missouri"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Boyda Law LLC'for western half of the state",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Missouri"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Bruning Law Firm'or 'DiPasquale Moore LLC'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Missouri"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Missouri"
+                }
+            }
+        ],
+        "Mississippi": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Mississippi"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Langston and Lott'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Mississippi"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Barlow and Goff'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Mississippi"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Mississippi"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Barlow and Goff'or 'Langston and Lott'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Mississippi"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Mississippi"
+                }
+            }
+        ],
+        "Florida": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Florida"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Rubenstein'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "4",
+                    "case_state": "Florida"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Labovick'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-3",
+                    "case_state": "Florida"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Florida"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Florida"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Adiel - Labovick Law Group'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "3-4",
+                    "case_state": "Florida"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-2",
+                    "case_state": "Florida"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Florida"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST FL'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "3",
+                    "case_state": "Florida"
+                }
+            }
+        ],
+        "Arkansas": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Arkansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Taylor and Taylor Law Firm'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Arkansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Arkansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Arkansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Rainwater Hold and Sexton'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Arkansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Matt Fendon'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Arkansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST AR'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "3",
+                    "case_state": "Arkansas"
+                }
+            }
+        ],
+        "Wyoming": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Wyoming"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Terry Rosenblum and Associates'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Wyoming"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Wyoming"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Terry Rosenblum and Associates'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Wyoming"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Wyoming"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Wyoming"
+                }
+            }
+        ],
+        "Arizona": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Arizona"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "4",
+                    "case_state": "Arizona"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Ramos Law'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-3",
+                    "case_state": "Arizona"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-3",
+                    "case_state": "Arizona"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-3",
+                    "case_state": "Arizona"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Lazzara Law Firm'",
+                "condition": {
+                    "case_type": "Automobile Accident",
+                    "case_rating": "1-3",
+                    "case_state": "Arizona"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Matt Fendon'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-3",
+                    "case_state": "Arizona"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Matt Fendon'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Arizona"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST AZ'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "2",
+                    "case_state": "Arizona"
+                }
+            }
+        ],
+        "California": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Ledger Law'for all of CA except Orange County",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Easton and Easton'for Orange County",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Idiart Law'for North of Bakersfield",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Kingsmen Law'for South of Bakersfield and North of Orange County",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Easton and Easton'for South of Orange County",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Frank Su'for within 30 miles of SanFrancisco",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Nyman Turkish'for all of Northern Cal except within 30 mins of SanFrancisco",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Leigh Law Group'for South of Fresno, North of Los Angeles",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Stoll Nussbaum and Polakov'for South of Los Angeles",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "2-4",
+                    "case_state": "California"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST CA'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "California"
+                }
+            }
+        ],
+        "Colorado": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Colorado"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Ramos'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Colorado"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Colorado"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Colorado"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Colorado"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST CO'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Colorado"
+                }
+            }
+        ],
+        "Connecticut": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Connecticut"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Connecticut"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Connecticut"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Connecticut"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Sean Flaherty'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Connecticut"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Sean Flaherty'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "2-4",
+                    "case_state": "Connecticut"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST CT'",
+                "condition": {
+                    "case_type": "Medical Malfuntion",
+                    "case_rating": "4",
+                    "case_state": "Connecticut"
+                }
+            }
+        ],
+        "Delaware": [
+            {
+                "action": "Assign handling firm 'Kimmel Carter Roman Pelts'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Delaware"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Delaware"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST DL'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "4",
+                    "case_state": "Delaware"
+                }
+            }
+        ],
+        "Washington DC": [
+            {
+                "action": "Assign handling firm 'Saltz Mongoluzzi'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Washington DC"
+                }
+            },
+            {
+                "action": "Assign handling firm 'McCarthy Wilson'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Washington DC"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Washington DC"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Washington DC"
+                }
+            },
+            {
+                "action": "Assign handling firm 'McCarthy Wilson'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Washington DC"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Washington DC"
+                }
+            }
+        ],
+        "Georgia": [
+            {
+                "action": "Assign handling firm 'Beasley Allen'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Georgia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Monge and Associated'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Georgia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Georgia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Beasley Allen'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Georgia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Beasley Allen'for any Catastrophic Injury",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Georgia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Kaufman Law PC'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "3-4",
+                    "case_state": "Georgia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Sadow and Froy'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-2",
+                    "case_state": "Georgia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Georgia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST GE'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Georgia"
+                }
+            }
+        ],
+        "Idaho": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Idaho"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Stephen Nemec'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Idaho"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Idaho"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST ID'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "3",
+                    "case_state": "Idaho"
+                }
+            }
+        ],
+        "Illinois": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Illinois"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Whiteside and Goldberg'or 'Tarver Law' or 'Ankin Law'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Illinois"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Whiteside and Goldberg'or 'Ankin Law'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Illinois"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Illinois"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST IL'",
+                "condition": {
+                    "case_type": "Automobile Accident",
+                    "case_rating": "5",
+                    "case_state": "Illinois"
+                }
+            }
+        ],
+        "Indiana": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Indiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'McCready Law'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Indiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Klezmer and Maudlin'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Indiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Indiana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST IN'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-2",
+                    "case_state": "Indiana"
+                }
+            }
+        ],
+        "Iowa": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Iowa"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Dutton and Drake'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Iowa"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Dutton and Drake'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Iowa"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Iowa"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST IO'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "4",
+                    "case_state": "Iowa"
+                }
+            }
+        ],
+        "Kansas": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Kansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Peterson and Associates'or 'DiPasquale Moore LLC'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Kansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Cooper Law Office'or 'DiPasquale Moore LLC'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Kansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Kansas"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST KA'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "4",
+                    "case_state": "Kansas"
+                }
+            }
+        ],
+        "Kentucky": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Kentucky"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Cowley Law Offices'or",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Kentucky"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Dolt Thompson Shepard'",
+                "condition": {
+                    "case_type": "Medical Malfuntion",
+                    "case_rating": "1-4",
+                    "case_state": "Kentucky"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Dolt Thompson Shepard'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Kentucky"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Kentucky"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Kentucky"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST KY'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "3-5",
+                    "case_state": "Kentucky"
+                }
+            }
+        ],
+        "Maryland": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Maryland"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Swartz'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Maryland"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Swartz'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Maryland"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Swartz'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Maryland"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Swartz'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Maryland"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Maryland"
+                }
+            },
+            {
+                "action": "Assign handling firm 'TEST MD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-5",
+                    "case_state": "Maryland"
+                }
+            }
+        ],
+        "Montana": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Montana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Lowe Law Group'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Montana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Montana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Montana"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Montana"
+                }
+            }
+        ],
+        "New Hampshire": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "New Hampshire"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches Law Group'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "New Hampshire"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches Law Group'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "New Hampshire"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches Law Group'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "New Hampshire"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches Law Group'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "New Hampshire"
+                }
+            }
+        ],
+        "New Mexico": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "New Mexico"
+                }
+            },
+            {
+                "action": "Assign handling firm 'McEldrew'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "New Mexico"
+                }
+            },
+            {
+                "action": "Assign handling firm 'McEldrew'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "New Mexico"
+                }
+            },
+            {
+                "action": "Assign handling firm 'McEldrew'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "New Mexico"
+                }
+            },
+            {
+                "action": "Assign handling firm 'John Sloan'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "New Mexico"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "New Mexico"
+                }
+            }
+        ],
+        "New York": [
+            {
+                "action": "Assign handling firm 'REFER TO NY SECTION'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-5",
+                    "case_state": "New York"
+                }
+            }
+        ],
+        "Ohio": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Ohio"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Nager Romaine & Schneiberg '",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Ohio"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Ohio"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Ohio"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Nager Romaine & Schneiberg'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Ohio"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Ohio"
+                }
+            }
+        ],
+        "Oklahoma": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Oklahoma"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Fishee and Yaffe'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Oklahoma"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Clinesmith'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Oklahoma"
+                }
+            },
+            {
+                "action": "Assign handling firm Send to 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Oklahoma"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Eliot Yaffe'for Western hald of Oklahoma",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Oklahoma"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Terry M Rosenblum and Associates'for Eastern half of Oklahoma",
+                "condition": {
+                    "case_type": "Automobile Accident",
+                    "case_rating": "1-4",
+                    "case_state": "Oklahoma"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Eliot Yaffe'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Oklahoma"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Oklahoma"
+                }
+            }
+        ],
+        "Pennsylvania": [
+            {
+                "action": "Assign handling firm 'REFER TO PA SECTION'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-5",
+                    "case_state": "Pennsylvania"
+                }
+            }
+        ],
+        "Rhode Island": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Rhode Island"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Rhode Island"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Rhode Island"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Rhode Island"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Sean Flaherty '",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Rhode Island"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Sean Flaherty '",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Rhode Island"
+                }
+            }
+        ],
+        "South Carolina": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "South Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hawk Law'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "South Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hawk Law'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "South Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hawk Law'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "South Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hawk Law'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "South Carolina"
+                }
+            },
+            {
+                "action": "Assign handling firm 'The Noble Firm'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "South Carolina"
+                }
+            }
+        ],
+        "South Dakota": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "South Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Lowe Law Group'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "South Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "South Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "South Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "South Dakota"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "South Dakota"
+                }
+            }
+        ],
+        "Vermont": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Vermont"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Vermont"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Vermont"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Keches'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Vermont"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Vermont"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Vermont"
+                }
+            }
+        ],
+        "Virginia": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Commonwealth Law Group'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Commonwealth Law Group'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Commonwealth Law Group'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Harbison Kavanagh'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Commonwealth Law Group or 'Harbison Kavanagh'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Virginia"
+                }
+            }
+        ],
+        "Washington": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Washington"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Ledger Law'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Washington"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Puget Law'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Washington"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Ledger Law'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Washington"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Phillips Law Firm PLLC'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Washington"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Washington"
+                }
+            }
+        ],
+        "West Virginia": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "West Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Bordas and Bordas'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "West Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Bordas and Bordas'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "West Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Bordas and Bordas'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "West Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hall and Copetas'or 'The Wallace Firm'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "West Virginia"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "West Virginia"
+                }
+            }
+        ],
+        "Wisconsin": [
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "5",
+                    "case_state": "Wisconsin"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hupy and Abraham'",
+                "condition": {
+                    "case_type": "Any",
+                    "case_rating": "1-4",
+                    "case_state": "Wisconsin"
+                }
+            },
+            {
+                "action": "Assign handling firm 'SAD'",
+                "condition": {
+                    "case_type": "Nursing Home",
+                    "case_rating": "1-4",
+                    "case_state": "Wisconsin"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Hupy and Abraham'",
+                "condition": {
+                    "case_type": "Product Liability",
+                    "case_rating": "1-4",
+                    "case_state": "Wisconsin"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Gillick Wicht Gillick & Graf'",
+                "condition": {
+                    "case_type": "Worker Compensation",
+                    "case_rating": "1-4",
+                    "case_state": "Wisconsin"
+                }
+            },
+            {
+                "action": "Assign handling firm 'Morgan and Morgan'",
+                "condition": {
+                    "case_type": "Labour Law",
+                    "case_rating": "1-4",
+                    "case_state": "Wisconsin"
+                }
+            }
+        ]
+    }
+}

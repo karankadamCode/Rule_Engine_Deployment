@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine</title>
+    <style>
+        #custom-popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #000;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            text-align: center;
+        }
+        #popup-message {
+            margin-bottom: 20px;
+        }
+
+        #popup-message {
+            margin-bottom: 20px;
+        }
+        #popup-yes-btn, #popup-no-btn {
+            padding: 10px 20px;
+            background-color: #2ca167;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            /* margin: 0px; */
+            margin: 0 10px;
+        }
+        #popup-no-btn {
+            background-color: #dc3545;
+        }
+        #popup-yes-btn:hover {
+            background-color: #0056b3;
+        }
+        #popup-no-btn:hover {
+            background-color: #c82333;
+        }
+        #popup-close-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-left: 80%;
+        }
+        #popup-close-btn:hover {
+            background-color: #0056b3;
+        }
+        #overlay {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 500;
+        }
+
+        #temp-popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            background-color: #5cc2db;
+            border: 1px solid #ecf7f3;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            text-align: center;
+        }
+        /* Remove button */
+        #rules-table tbody tr button {
+            background-color: #e84545; /* Change the color to your desired one */
+            color: white;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        /* Increase the height of the dropdown selector */
+        select {
+            height: 34px; /* Adjust the height as needed */
+        }
+
+        #rules-table tbody tr button:hover {
+            background-color: #b21919; /* Change the hover color */
+        }
+
+        /* Add Rule button */
+        #add-rule-btn {
+            background-color: #2ca167; /* Change the color to your desired one */
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 0px;
+        }
+
+        #add-rule-btn:hover {
+            background-color: #277753; /* Change the hover color */
+        }
+        
+        /* Increase the height of the dropdown selector */
+        #new-case-state {
+            height: 35px; /* Adjust the height as needed */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        /* Position the Add Rule button to the right */
+        #new-rule-form {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: 15px;
+        }
+
+        #home-field {
+            font-size: 18px;
+            font-weight: bold;
+            color: #b8142d;
+            margin-bottom: 20px;
+            margin-left: 1000px;
+            /* background-color: #f2f2f2; */
+            padding: 8px 20px;
+            border-radius: 10px;
+            /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+        }
+        
+        /* Add horizontal spacing between input/select boxes */
+        #new-rule-form input,
+        #new-rule-form select {
+            margin-right: 4px; /* Adjust the spacing as needed */
+        }
+
+        #new-rule-form button {
+            margin-left: 19px; /* Adjust margin as needed */
+        }
+
+        #add-rule-btn {
+            width: 400px; /* Adjust the width as needed */
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #rules-container {
+            display: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        form #state-select {
+            flex-basis: calc(70% - 10px);
+            margin-top: 25px;
+            width: 40%;
+            height: 33px;
+        }
+
+        button {
+            background-color: #2774c5;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #17419c;
+        }
+
+        #save-btn {
+            background-color: #2ca167;
+            color: white;
+            padding: 11px 45px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 980px;
+            /* margin-left: 500px; */
+        }
+
+        #save-btn:hover {
+            background-color: #107c10;
+        }
+
+        .label-rule-engine {
+            font-size: 26px;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            margin-left: 400px;
+            background-color: #f2f2f2;
+            padding: 8px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .label-rules {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            margin-left: 0px;
+            background-color: #f2f2f2;
+            padding: 8px 20px;
+            border-radius: 10px;
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto; /* Center vertically */
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 80%; /* Reduced width */
+            max-width: 400px; /* Maximum width */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+            text-align: center; /* Center text content */
+        }
+
+        .modal-buttons {
+            text-align: center; /* Center buttons */
+        }
+
+        .modal-buttons button {
+            margin: 5px auto; /* Center horizontally */
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            border: none;
+            transition: background-color 0.3s ease;
+            font-family: Arial, sans-serif; /* Use a common sans-serif font */
+            font-size: 14px;
+        }
+
+        .modal-buttons button:hover {
+            background-color: #f0f0f0; /* Hover background color */
+        }
+
+        #confirm-btn {
+            background-color: #007bff; /* Blue */
+            color: #fff; /* White text */
+        }
+
+        #cancel-btn {
+            background-color: #dc3545; /* Red */
+            color: #fff; /* White text */
+        }
+
+        /* Temporary alert message */
+        .temp-alert {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #31b5ba;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            z-index: 9999;
+            display: none;
+        }
+
+        #home-field:hover {
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <label for="state-form" class="label-rule-engine">Rules Engine</label>
+
+        <br>
+        <br><br>
+
+        <!-- Add new rule form -->
+        <form id="new-rule-form">
+            <select id="new-action" onchange="toggleTextBox()">
+                <option value="" disabled selected>Handling Firm</option>
+                <option value="custom" id="custom-option">Add New</option>
+            </select>
+
+            <!-- adding new handling firm -->
+            <input type="text" id="new-text" style="display: none;" placeholder="Add Handling Firm" onblur="updateCustomOption()">
+
+            <script>
+                // List of handling firms
+                let handlingFirms = JSON.parse(localStorage.getItem("handlingFirms")) || [
+                    "Adiel - Labovick Law Group",
+                    "Ankin Law",
+                    "Barlow and Goff",
+                    "Bordas and Bordas",
+                    "Bob Moodie",
+                    "Boyda Law LLC",
+                    "Bottini, Bottini and Oswald",
+                    "Brian Ricci",
+                    "Bruning Law Firm",
+                    "Clinesmith",
+                    "Cooper Law Office",
+                    "Cooper Levinsom",
+                    "Cowley Law Offices",
+                    "Cruz",
+                    "Daniel Stark",
+                    "DiPasquale Moore",
+                    "DiPasquale Moore LLC",
+                    "Dolt Thompson Shepard",
+                    "Dutton and Drake",
+                    "Dylan",
+                    "Easton and Easton",
+                    "Eliot Yaffe",
+                    "Fishee and Yaffe",
+                    "Frank Su",
+                    "Friedman Law Offices",
+                    "Gillick Wicht Gillick & Graf",
+                    "Hall and Copetas",
+                    "Harbison Kavanagh",
+                    "Hawk Law",
+                    "Hughes Coleman",
+                    "Hollis Wright and Clay",
+                    "Hupy and Abraham",
+                    "Idiart Law",
+                    "Jay Trucks",
+                    "John Sloan",
+                    "Kaufman Law PC",
+                    "Keches",
+                    "Keches Law Group",
+                    "Kimmel Carter Roman Pelts",
+                    "Kingsmen Law",
+                    "Klezmer and Maudlin",
+                    "Langston and Lott",
+                    "Lazzara Law Firm",
+                    "Leigh Law Group",
+                    "Lowe Law Group",
+                    "Lowe Law Group",
+                    "Labovick",
+                    "Manuel Gonzales",
+                    "Matt Fendon",
+                    "McCready Law",
+                    "McCarthy Wilson",
+                    "McEldrew",
+                    "Monge and Associated",
+                    "Morgan and Morgan",
+                    "Nyman Turkish",
+                    "Nager Romaine & Schneiberg",
+                    "Puget Law",
+                    "Phillips Law Firm PLLC",
+                    "Rainwater Hold and Sexton",
+                    "Refer to NJ Section",
+                    "Refer to NY Section",
+                    "Refer to PA Section",
+                    "Richard Harris Law",
+                    "Richard Harris Law Firm",
+                    "Ricci",
+                    "Riddle and Brantley",
+                    "Ramos",
+                    "Ramos Law",
+                    "Rubenstein",
+                    "Run through Adam",
+                    "Rosenblum and Associates",
+                    "Sean Flaherty",
+                    "Sean Flaherty",
+                    "Sadow and Froy",
+                    "Saltz Mongoluzzi",
+                    "Stephen Nemec",
+                    "Stoll Nussbaum and Polakov",
+                    "Steven Latham",
+                    "Swartz",
+                    "Tarver Law",
+                    "Taylor and Taylor Law Firm",
+                    "Terry Rosenblum and Associates",
+                    "The Noble Firm",
+                    "The Wallace Firm",
+                    "TSR Injury Law",
+                    "Whiteside and Goldberg",
+                    "Workers Compensation LLC"
+                ];
+
+                // Function to save handling firms to Local Storage
+                function saveHandlingFirmsToStorage() {
+                    // Filter out empty values from the handlingFirms array
+                    var nonEmptyHandlingFirms = handlingFirms.filter(function(firm) {
+                        return firm.trim() !== ""; // Remove empty or whitespace-only values
+                    });
+                    localStorage.setItem("handlingFirms", JSON.stringify(nonEmptyHandlingFirms));
+                }
+
+                // Function to delete a particular handling firm from Local Storage
+                function deleteHandlingFirmFromStorage(firmName) {
+                    const index = handlingFirms.indexOf(firmName);
+                    if (index !== -1) {
+                        handlingFirms.splice(index, 1); // Remove the firm from the array
+                        saveHandlingFirmsToStorage(); // Save the updated array back to Local Storage
+                    }
+                }
+
+                // Example usage:
+                // Suppose you want to delete "Morgan and Morgan" from Local Storage
+                // deleteHandlingFirmFromStorage("egferhgrweh");
+
+                // Function to populate dropdown with handling firms
+                function populateHandlingFirms() {
+                    // Sort the handling firms alphabetically
+                    handlingFirms.sort();
+                    const dropdown = document.getElementById("new-action");
+
+                    // Clear existing options except the first two (default and custom)
+                    while (dropdown.options.length > 2) {
+                        dropdown.remove(2);
+                    }
+
+                    // Loop through the handling firms list and create an option element for each
+                    handlingFirms.forEach((firm) => {
+                        const option = document.createElement("option");
+                        option.value = "Assign handling firm '" + firm + "'";
+                        option.textContent = firm;
+                        dropdown.appendChild(option);
+                    });
+                }
+
+                // Call the function to populate the dropdown
+                populateHandlingFirms();
+
+                function toggleTextBox() {
+                    var selectBox = document.getElementById("new-action");
+                    var textBox = document.getElementById("new-text");
+                    var customOption = document.getElementById("custom-option");
+                    if (selectBox.value === "custom") {
+                        textBox.style.display = "inline-block";
+                        // Set the value of the "Custom" option to match the input value
+                        customOption.value = textBox.value;
+                    } else {
+                        textBox.style.display = "none";
+                    }
+                }
+                
+                
+
+                function updateCustomOption() {
+                    var textBox = document.getElementById("new-text");
+                    var customOption = document.getElementById("custom-option");
+
+                    // Extract the name of the new handling firm without the prefix and suffix
+                    var firmName = textBox.value.replace("Assign handling firm '", "").replace("'", "");
+
+                    // Update the value of the "Custom" option as the input changes
+                    customOption.value = "Assign handling firm '" + firmName + "'";
+
+                    // Check if the new handling firm already exists in the handlingFirms array
+                    if (!handlingFirms.includes(firmName)) {
+                        // Add the new handling firm to the handlingFirms array
+                        handlingFirms.push(firmName);
+
+                        saveHandlingFirmsToStorage();
+
+                        // Re-populate the dropdown with the updated handling firms list
+                        populateHandlingFirms();
+                    }
+                }
+
+                                
+                // Ensure the textbox remains visible when switching between options
+                document.addEventListener("DOMContentLoaded", function() {
+                    toggleTextBox();
+                });
+            </script>
+
+            <input type="text" id="new-case-rating" placeholder="Case Rating (Tier)">
+
+            <!-- Change the Case State field to a dropdown selector -->
+            <!-- {% set states = states + ['NJ'] %} -->
+            <!-- <select id="new-case-state">
+                <option value="" disabled selected>Case State</option>
+                {% for state in states|sort %}
+                    <option value="{{ state }}">{{ state }}</option>
+                {% endfor %}
+            </select> -->
+
+            <select id="new-case-state">
+                <option value="" disabled selected>Case State</option>
+                {% for state in states|sort %}
+                    {% if state != 'NJ' %}
+                        <option value="{{ state }}">{{ state }}</option>
+                    {% endif %}
+                {% endfor %}
+            </select>
+            
+
+            <!-- <input type="text" id="new-case-type" placeholder="Case Type"> -->
+            <select id="new-case-type">
+                <option value="" disabled selected>Case Type</option>
+                <option value="Any">Any</option>
+                <option value="Automobile Accident">Automobile Accident</option>
+                <option value="Labour Law">Labour Law</option>
+                <option value="Medical Malfuntion">Medical Malfuntion</option>
+                <option value="Nursing Home">Nursing Home</option>
+                <option value="Product Liability">Product Liability</option>
+                <option value="Worker Compensation">Worker Compensation</option>
+            </select>
+            
+            <button type="button" id="add-rule-btn" onclick="refresh_page()">Add Rule</button>
+
+            <script>
+                function refresh_page(){
+                    // Delay the refresh action by 2 seconds
+                    setTimeout(function() {
+                        location.reload();
+                    }, 1500); // 1500 milliseconds = 2 seconds
+                }
+            </script>
+
+        </form>
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+    
+        <!-- Link to show the input field and button -->
+        <a href="#" id="show-remove-firm-link" onclick="showRemoveFirmForm()" style="font-size: small;">Want to remove newly added handling firm?</a>
+
+        <div id="remove-firm-form" style="display: none;">
+            <select id="remove-firm" style="display: inline-block; width: calc(26% - 90px); margin-left: 0px;height: 32px;font-size:12px;">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <button type="button" id="remove-firm-btn" onclick="confirmRemoveFirm()" style="display: inline-block; width: 80px;height: 32px;font-size:12px;">Remove</button>
+            <button type="button" id="back-btn" onclick="back()" style="display: inline-block; width: 80px;height: 32px;font-size:12px;">Back</button>
+        </div>
+
+        <!-- Custom popup -->
+        <div id="overlay"></div>
+        <div id="custom-popup">
+            <div id="popup-message"></div>
+            <button id="popup-yes-btn" onclick="removeFirm()">Yes</button>
+            <button id="popup-no-btn" onclick="closePopup()">No</button>
+        </div>
+
+        <!-- Temporary message popup -->
+        <div id="temp-popup">Please select a handling firm name.</div>
+
+        <script>
+            let firmToRemove = '';
+
+            function back() {
+                window.location.href = "/";
+            }
+
+            // Function to show the input field and button
+            function showRemoveFirmForm() {
+                document.getElementById("remove-firm-form").style.display = "block";
+                document.getElementById("show-remove-firm-link").style.display = "none"; // Hide the link
+                populateDropdown(); // Populate the dropdown with firms
+            }
+
+            // Function to populate the dropdown with handling firms from Local Storage
+            function populateDropdown() {
+                const handlingFirms = JSON.parse(localStorage.getItem('handlingFirms')) || [];
+                const dropdown = document.getElementById("remove-firm");
+                dropdown.innerHTML = ""; // Clear existing options
+
+                // Add initial disabled option
+                const initialOption = document.createElement("option");
+                initialOption.value = "";
+                initialOption.textContent = "Select Handling Firm";
+                initialOption.disabled = true;
+                initialOption.selected = true;
+                dropdown.appendChild(initialOption);
+
+                // Add options from local storage
+                handlingFirms.forEach(firm => {
+                    const option = document.createElement("option");
+                    option.value = firm;
+                    option.textContent = firm;
+                    dropdown.appendChild(option);
+                });
+            }
+
+            // Function to show confirmation popup
+            function confirmRemoveFirm() {
+                firmToRemove = document.getElementById("remove-firm").value;
+                if (firmToRemove !== "") {
+                    showPopup(`Are you sure you want to remove the handling firm '${firmToRemove}'?`);
+                } else {
+                    showTempPopup("Please select a handling firm name.");
+                }
+            }
+
+            // Function to delete a particular handling firm from Local Storage
+            function deleteHandlingFirmFromStorage(firmName) {
+                const handlingFirms = JSON.parse(localStorage.getItem('handlingFirms')) || []; // Retrieve the array from Local Storage
+                const index = handlingFirms.indexOf(firmName);
+                if (index !== -1) {
+                    handlingFirms.splice(index, 1); // Remove the firm from the array
+                    localStorage.setItem('handlingFirms', JSON.stringify(handlingFirms)); // Save the updated array back to Local Storage
+                    console.log(`Handling Firm '${firmName}' removed from Firm List.`);
+                    showPopup(`Handling Firm '${firmName}' has been removed from Firm List.`);
+                    populateDropdown(); // Refresh the dropdown options
+                } else {
+                    showPopup(`Handling Firm '${firmName}' not found in Firm List.`);
+                }
+            }
+
+            function removeFirm() {
+                deleteHandlingFirmFromStorage(firmToRemove);
+                closePopup();
+            }
+
+            function showPopup(message) {
+                document.getElementById("popup-message").textContent = message;
+                document.getElementById("custom-popup").style.display = "block";
+                document.getElementById("overlay").style.display = "block";
+            }
+
+            function closePopup() {
+                document.getElementById("custom-popup").style.display = "none";
+                document.getElementById("overlay").style.display = "none";
+            }
+
+            function showTempPopup(message) {
+                const tempPopup = document.getElementById("temp-popup");
+                tempPopup.textContent = message;
+                tempPopup.style.display = "block";
+                setTimeout(() => {
+                    tempPopup.style.display = "none";
+                }, 2000); // Show the popup for 3 seconds
+            }
+        </script>
+
+<!-- ------------------------------------------------------------------------------------------ -->
+        <form id="state-form">
+            <!-- {% set states = states + ['NJ'] %} -->
+            <!-- <select name="state" id="state-select">
+                {% for state in states|unique|sort %}
+                    <option value="{{ state }}">{{ state }}</option>
+                {% endfor %}
+            </select> -->
+
+            <select name="state" id="state-select">
+                {% for state in states|unique|sort %}
+                    {% if state != 'NJ' %}
+                        <option value="{{ state }}">{{ state }}</option>
+                    {% endif %}
+                {% endfor %}
+            </select>
+        
+            <button type="button" id="show-rules-btn">Show Rules</button>
+        </form>
+        
+
+        
+
+
+        <div id="rules-container">
+            <table id="rules-table">
+                <thead>
+                    <tr>
+                        <th>Action (Assign handling firm)</th>
+                        <th>Case Rating (Tier)</th>
+                        <th>Case State</th>
+                        <th>Case Type</th>
+
+                    </tr>
+                </thead>
+                <tbody id="rules-body">
+                    <!-- Rules rows will be inserted here dynamically -->
+                </tbody>
+            </table>
+            <!-- <br> -->
+            <button type="button" id="save-btn">Save</button>
+           
+        </div>
+        
+        <br><br>
+
+
+
+
+    </div>
+
+    <!-- Custom alert box -->
+    <div id="custom-alert" class="modal">
+        <div class="modal-content">
+            <p>Do you want to Save the Rules?</p>
+            <div class="modal-buttons">
+                <button id="confirm-btn">Confirm</button>
+                <button id="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Temporary alert message -->
+    <div id="temp-alert" class="temp-alert"></div>
+
+
+
+    <script>
+
+    // Event listener for the "Remove" button in each row
+    document.querySelectorAll('#rules-table tbody tr button').forEach((button, index) => {
+        button.addEventListener('click', function() {
+            // Show the confirmation modal for removing the rule
+            showRemoveConfirmationModal(index);
+        });
+    });
+
+    // Function to show the confirmation modal for removing a rule
+    function showRemoveConfirmationModal(index) {
+        var removeConfirmModal = document.getElementById('remove-rule-confirm');
+        removeConfirmModal.style.display = 'block';
+
+        // Event listener for the "Confirm" button in the confirmation modal
+        document.getElementById('confirm-remove-btn').onclick = function() {
+            // Remove the rule if the user confirms
+            removeRule(index);
+            hideRemoveConfirmationModal();
+        };
+
+        // Event listener for the "Cancel" button in the confirmation modal
+        document.getElementById('cancel-remove-btn').onclick = function() {
+            // Hide the confirmation modal if the user cancels
+            hideRemoveConfirmationModal();
+        };
+    }
+
+    // Function to hide the confirmation modal for removing a rule
+    function hideRemoveConfirmationModal() {
+        var removeConfirmModal = document.getElementById('remove-rule-confirm');
+        removeConfirmModal.style.display = 'none';
+    }
+
+    // Function to remove a rule from the table
+    function removeRule(index) {
+        var tableBody = document.getElementById('rules-body');
+        var rowToRemove = tableBody.querySelectorAll('tr')[index];
+        rowToRemove.remove();
+
+        // After removing the rule, trigger the save action automatically
+        saveRules();
+    }
+
+    // Event listener for the "Remove" button in each row
+    document.querySelectorAll('#rules-table tbody tr button.remove-rule-btn').forEach((button, index) => {
+        button.addEventListener('click', function() {
+            // Show the confirmation modal for removing the rule
+            showRemoveConfirmationModal(index);
+        });
+    });
+
+
+
+        
+        // Function to show the custom alert box
+        function showCustomAlert() {
+            var customAlert = document.getElementById('custom-alert');
+            customAlert.style.display = 'block';
+        }
+    
+        // Function to hide the custom alert box
+        function hideCustomAlert() {
+            var customAlert = document.getElementById('custom-alert');
+            customAlert.style.display = 'none';
+        }
+    
+        // Function to show a temporary alert message
+        function showTempAlert(message, duration) {
+            var tempAlert = document.getElementById('temp-alert');
+            tempAlert.innerText = message;
+            tempAlert.style.display = 'block';
+            setTimeout(function() {
+                tempAlert.style.display = 'none';
+            }, duration);
+        }
+    
+        // Function to show a small popup message
+        function showRuleUpdatedPopup(ruleNo) {
+            var popup = document.createElement('div');
+            popup.className = 'rule-updated-popup';
+            popup.textContent = 'Rule ' + ruleNo + ' updated!';
+            document.body.appendChild(popup);
+            setTimeout(function() {
+                popup.style.opacity = '0';
+                setTimeout(function() {
+                    document.body.removeChild(popup);
+                }, 1000); // Remove the popup after 1 second
+            }, 3000); // Show the popup for 3 seconds
+        }
+
+        // Event listener for the "Show Rules" button
+        document.getElementById('show-rules-btn').addEventListener('click', function() {
+            var state = document.getElementById('state-select').value;
+            fetch('/get_rules', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    state: state
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                var rulesContainer = document.getElementById('rules-container');
+                rulesContainer.style.display = 'block';
+                var rulesTableBody = document.getElementById('rules-body');
+                rulesTableBody.innerHTML = '';
+                data.rules.forEach(rule => {
+                    var row = document.createElement('tr');
+                    Object.keys(rule).forEach(key => {
+                        var cell = document.createElement('td');
+                        if (key === 'case_type') {
+                            // Create a select element for Case Type
+                            var select = document.createElement('select');
+                            // Populate options for Case Type
+                            var caseTypes = ["Any", "Automobile Accident", "Labour Law", "Medical Malfuntion", "Nursing Home", "Product Liability", "Worker Compensation"] // Fetch this from CSV
+                            caseTypes.forEach(caseType => {
+                                var option = document.createElement('option');
+                                option.value = caseType;
+                                option.textContent = caseType;
+                                if (caseType === rule[key]) {
+                                    option.selected = true; // Select the option if it matches the rule's case type
+                                }
+                                select.appendChild(option);
+                            });
+                            cell.appendChild(select);
+                        } else {
+                            // For other columns, create input fields as before
+                            var input = document.createElement('input');
+                            input.type = 'text';
+                            input.value = rule[key];
+                            if (key === 'case_state') {
+                                input.disabled = true; // Make 'Case State' field uneditable
+                            }
+                            cell.appendChild(input);
+                        }
+                        row.appendChild(cell);
+                    });
+                    // Add remove button to each row
+                    var removeButtonCell = document.createElement('td');
+                    var removeButton = document.createElement('button');
+                    removeButton.textContent = 'Remove';
+                    removeButton.addEventListener('click', function() {
+                        // Remove the row when the remove button is clicked
+                        row.remove();
+                    });
+                    removeButtonCell.appendChild(removeButton);
+                    row.appendChild(removeButtonCell);
+                    // Append the row to the table body
+                    rulesTableBody.appendChild(row);
+                });
+            });
+        });
+
+
+
+        // Event listener for the "Save" button
+        document.getElementById('save-btn').addEventListener('click', function() {
+            // Show the custom alert box
+            showCustomAlert();
+        });
+
+
+        // Event listener for the "Confirm" button in the custom alert box
+        document.getElementById('confirm-btn').addEventListener('click', function() {
+            // Save the updated rules here
+            var updatedRules = [];
+            var updatedRuleIndex = -1; // Store the index of the updated rule
+            var tableRows = document.querySelectorAll('#rules-table tbody tr');
+            var isEmptyField = false; // Flag to track if any field is empty
+            tableRows.forEach((row, index) => {
+                var inputs = row.querySelectorAll('input, select'); // Include select elements for dropdowns
+                var rule = {
+                    action: inputs[0].value,
+                    case_rating: inputs[1].value,
+                    case_state: inputs[2].value,
+                    case_type: inputs[3].value
+                };
+                // Check if any field is empty
+                if (Object.values(rule).some(value => value.trim() === '')) {
+                    isEmptyField = true;
+                    return; // Exit the loop early if any field is empty
+                }
+                updatedRules.push(rule);
+                // Check if the rule has been updated
+                if (inputs[1].classList.contains('updated')) {
+                    updatedRuleIndex = index;
+                }
+            });
+
+            if (isEmptyField) {
+                // Display error message if any field is empty
+                showTempAlert("Rule field cannot be empty. Please fill in all fields.", 3000);
+                return; // Stop further processing if any field is empty
+            }
+
+            fetch('/update_rules', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    updated_rules: updatedRules
+                })
+            })
+            .then(response => response.text())
+            .then(message => {
+                // Display success message
+                showTempAlert(message, 3000); // Show the message for 3 seconds
+                // Clear input fields after adding the rule
+                document.getElementById('new-action').value = '';
+                document.getElementById('new-case-rating').value = '';
+                document.getElementById('new-case-state').value = '';
+                document.getElementById('new-case-type').value = '';
+
+                // Hide the custom alert box after confirming
+                hideCustomAlert();
+            });
+        });
+
+        // Event listener for the "Cancel" button in the custom alert box
+        document.getElementById('cancel-btn').addEventListener('click', function() {
+            // Perform action when canceled
+            hideCustomAlert(); // Hide the custom alert box
+            // Do not save the updated rules or perform further actions if needed
+            return; // Stop the execution of saving process
+        });
+
+
+        // Event listener for the "Add Rule" button
+        document.getElementById('add-rule-btn').addEventListener('click', function() {
+            // Retrieve values from input fields
+            var action = document.getElementById('new-action').value;
+            var caseRating = document.getElementById('new-case-rating').value;
+            var caseState = document.getElementById('new-case-state').value;
+            var caseType = document.getElementById('new-case-type').value;
+
+            // Check if any field is empty
+            if (action.trim() === '' || caseRating.trim() === '' || caseState.trim() === '' || caseType.trim() === '') {
+                // Display a popup message to fill all details
+                showTempAlert("Please fill in all details to add a rule.", 3000);
+                return; // Stop further execution
+            }
+
+            // If all fields are filled, proceed to add the rule
+            var newRule = {
+                action: action,
+                case_rating: caseRating,
+                case_state: caseState,
+                case_type: caseType
+            };
+
+            fetch('/add_rule', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    new_rule: newRule
+                })
+            })
+            .then(response => response.text())
+            .then(message => {
+                // Display success message
+                showTempAlert(message, 3000); // Show the message for 3 seconds
+                // Clear input fields after adding the rule
+                document.getElementById('new-action').value = '';
+                document.getElementById('new-case-rating').value = '';
+                document.getElementById('new-case-state').value = '';
+                document.getElementById('new-case-type').value = '';
+            });
+        });
+
+    </script>
+</body>
+</html>
