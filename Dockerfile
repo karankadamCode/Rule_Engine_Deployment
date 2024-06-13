@@ -24,7 +24,7 @@ RUN pip3 install -r requirements.txt
 # Copying the FastAPI application code into the container
 COPY . .
 
-# Exposing port 443 to the outside world
+# Exposing port 80 to the outside world
 EXPOSE 80
 
 # Command to run the FastAPI application
